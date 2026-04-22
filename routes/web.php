@@ -12,3 +12,7 @@ Route::get('/kepin', function () {
     return view('kepin');
 });
 
+
+Route::get('/about', function () {
+    return view('about');
+});
